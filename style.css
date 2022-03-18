@@ -1,0 +1,331 @@
+
+body{
+    background-color: rgb(204, 192, 172);
+    
+  
+   
+}
+h1{
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    font-weight: bold;
+    -webkit-text-stroke: 1px rgb(247, 243, 238);
+    -webkit-text-fill-color:  rgb(126, 80, 80);
+     text-shadow: 2px 2px  rgb(165, 147, 99) ;    
+    padding-left: 25%;
+}
+h2{
+    padding-left: 0;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 2px  rgb(165, 147, 99);  
+}
+strong{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+     text-shadow: 2px 2px rgb(204, 192, 172);  
+}
+header{
+   display: block;
+   
+   padding-left: 2%;
+    font-size: 1.2em;
+    width: 100%;
+    
+}
+#presentation{
+    width: 100%;
+}
+#presentation p:nth-child(2){
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+#perText{
+width: 80%;
+font-size: 10px;
+}
+/* end of header */
+
+
+
+#information{
+    float: left;
+    width: 25%;
+   background-color:  rgb(216, 207, 190); 
+    height: 102rem;
+    
+}
+
+#right{
+   height: auto;
+    float: right;
+   width: 75%;
+ 
+}
+
+#profissional{
+    padding-top: 5%;
+    width: 100%;
+}
+
+#profissional h1{
+    font-size:1.2em ;
+    padding-left: 2%;
+}
+#formations{
+    border-bottom: 2px solid rgb(204, 192, 172);
+}
+
+
+
+/* end of formation style */
+/* /// */
+#éxiperiances{
+    margin-top: 5%;
+}
+#éxiperiances img,#formations img{
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.forma-Style{
+    
+    padding-left: 5%;
+    padding-bottom: 5%;
+   
+}
+.anim{
+    perspective: 300px;
+		transition-duration: 1s;
+}
+.anim:hover{
+    transform-origin: left;
+		transform: rotateY(360deg);
+}
+
+.backgTop{
+    width: 100%;
+   margin-top: 5%;
+    width: auto;
+    text-align: center;
+    height: 30px;
+background-image: linear-gradient(to top, rgb(216, 207, 190), rgb(204, 192, 172)) ; 
+}
+#intérêts{
+    
+   width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.intéContent{
+    font-size: 0.8em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+ 
+   
+}
+#itéresSmartphon{
+    display: none;
+}
+
+
+
+/* ///////////// */
+
+
+#monphoto{
+    
+    width: 80%;
+    height: 300px;
+}
+
+
+#links
+{
+    display: block;
+   
+}
+#links img{
+  
+    padding-left: 5%;
+}
+
+
+
+/* start of compitances */
+#compPro , #compPerson, #Langues ,#informContact{
+    padding-top: 10%;
+    padding-left: 5%;
+    transition: height 5s; 
+}
+#compPro:hover , #compPerson:hover, #Langues:hover {
+      background-color: rgba(202, 191, 168, 0.856);  
+    text-shadow: 1px 2px white;
+    box-shadow: 4px 6px 8px 0 rgba(8, 8, 8, 0.411);
+
+}
+
+#compitancespro{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2em;
+    
+}
+#compitancespro ul , #compPerson ul{
+    list-style-type: none;
+ padding-left: 2%;
+}
+#compitancespro ul li{
+    margin-bottom: 35%;
+}
+#compLevel{
+    padding-top: 5%;
+}
+#compLevel img {
+ 
+    padding-bottom: 15%;
+    padding-left: 15%;
+}
+
+#compPerson li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    margin-bottom: 10%;
+}
+
+
+footer{
+    height: 20px;
+ 
+    position: relative;
+    clear: both;
+}
+/* flip Cart */
+.flip-card {
+    width:100%;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  
+  .flip-card-back {
+    background-color: rgb(216, 207, 190);
+    color: black;
+    transform: rotateY(180deg);
+  }
+  /* bottuns */
+  button{
+    -moz-box-shadow:0 0 5px 1px #666;
+    -webkit-box-shadow:0 0 5px 1px #666;
+    box-shadow:0 0 5px 1px #666;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:100%;
+    width: 2%;
+    height: 1em;
+  }
+  #infoButtons{
+      float: left;
+      padding-top: 5%;
+  }
+  
+  #red{
+    background-color: rgb(126, 80, 80);
+  }
+#defult{
+    background-color:rgb(204, 192, 172) ;
+}
+#blue{
+    background-color: rgb(112, 85, 199);
+}
+#gris{
+    background-color: rgb(107, 114, 112);
+}
+
+.pigPic{
+
+    box-shadow: 2px 4px 8px 4px rgb(238, 234, 234);
+}
+
+@media(max-width:700px){
+    h1{
+        font-size: 2em;
+        padding-left: 10%;
+    }
+    #monphoto{
+        padding-left: 0;
+        width: 100%;
+    }
+    #links img{
+        padding-left: 0%;
+        width:20%;
+    }
+    img{
+      width:20%;
+    }
+    #information h2{
+         font-size: 1em; 
+         
+    }
+    
+    #information  {
+    word-wrap: break-word;
+height: 100%;
+
+    }
+    #Langues{
+        padding-left:10%;
+    }
+    #Langues img{
+        width: 30%;
+    }
+
+    #right{
+        height: auto;
+    }
+    header p {
+        font-size: 0.8em;
+    }
+    
+    .intéContent img{
+        width: 50%;
+    }
+    #values p{
+        display: none;
+    }
+    
+    #intéretOrdinatur{ 
+        display: none; 
+    } 
+    #itéresSmartphon{
+        display: inline;
+    }
+}
+
